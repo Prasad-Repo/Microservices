@@ -1,0 +1,11 @@
+http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/INR
+http://localhost:8000/currency-exchange/from/EUR/to/INR
+
+
+http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/10
+http://localhost:8765/currency-conversion-service/{uri}
+http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/10
+
+http://localhost:8100/currency-converter/from/USD/to/INR/quantity/10
+http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/10
+
